@@ -6,105 +6,287 @@
     <style type="text/css">
       body
       { font: 120%/1.4 Georgia, serif;
-        width: 32em;
-        margin: 10ex auto; }
+        margin: 0; padding: 0; }
+
+      p
+      { margin: 2.5ex 0; }
+
+      .container
+      { width: 32em;
+        margin: auto;
+        padding: 5ex 0; }
+
+      .custom-links a
+      { text-decoration: none;
+        color: #60f;
+        border-bottom: 1px dotted #60f; }
+      .custom-links a:hover
+      { background: #f0e8ff;
+        border-bottom: 1px solid blue; }
+
+      img
+      { border: none; }
 
       h1
-      { font: bold 100%/1 Helvetica, sans-serif;
+      { font: bold 180%/1 Helvetica, sans-serif;
         letter-spacing: -1px;
         margin-top: 2ex; }
 
-      #translation-credit
-      { margin-top: 6ex;
-        padding-top: 2ex;
-        border-top: 1px solid #ccc;
-        font-size: 90%; }
+      h2
+      { font: bold 140%/1 Helvetica, sans-serif;
+        letter-spacing: -1px;
+        margin-top: 2ex; }
+
+      p.preamble
+      { font-size: 120%; }
+
+      strong
+      { font-weight: normal;
+        font-style: normal;
+        background: #ffd; }
+      
+      div.screenshot
+      { padding-left: 1em; }
+
+      li div.screenshot
+      { padding-left: 0; }
+
+      div.screenshot.os-x
+      { margin: -20px; }
+
+      p.author
+      { font-size: 80%;
+        text-align: right;
+        padding-top: 1ex;
+        margin-top: 3em;
+        color: #666;
+        border-top: 1px dotted #ccc; }
     </style>
   </head>
   <body>
-    <h1>Masktags and Multilingual Tweeting</h1>
+    <div class="container custom-links">
+      <h1>Masktags and Multilingual Tweeting</h1>
+  
+      <p class="preamble">If you speak more than one language and use
+        Twitter internationally, you might have run into some problems.
+        Most importantly, <strong>how do you tweet in a language that
+        only some of your followers understand</strong>, without
+        annoying everybody else? <span style="font-size: 70%; padding-left: 1em">(See below for <a href="#tldr">the
+            short version</a>.)</span></p>
+  
+      <p>There are two common solutions to this.  The simplest one is to
+        keep mixing tweets in different languages until everybody who is
+        too annoyed by the gibberish stops following you.  Problem
+        solved:</p>
+  
+      <div class="screenshot">
+        <img src="solution-1.png" width="536" height="412"
+             alt="Example illustrating the first solution."/>
+      </div>
+  
+      <p>A more sophisticated solution is to create a separate Twitter
+        account for each language that you want to tweet in:</p>
+  
+      <div class="screenshot">
+        <img src="solution-2.png" width="534" height="127"
+             alt="Example illustrating the second solution."/>
+      </div>
+  
+      <p>I’ve tried this,</p>
+  
+      <div class="screenshot">
+        <img src="solution-2-alt.png" width="538" height="145"
+             alt="Another example illustrating the second solution."/>
+      </div>
+  
+      <p>and while it solves the original problem, you get a whole
+        sample pack of new problems in return.  Which may be fine,
+        depending on how you use Twitter, and how comfortable you are
+        with Twitter-induced multiple personality disorder.  For me, it
+        was too awkward.  And besides, I can only make four more
+        psychologist appointments and then my insurance company needs to
+        approve any additional ones.</p>
+  
+      <p>Since neither solution has worked well for me, I’ve simply kept
+        my public tweets strictly in English:</p>
+  
+      <ul>
+        <li>
+          <p>Whenever I’ve linked to Swedish content, I’ve made it very
+            clear by sticking “[Swedish]” after the link.</p>
+        </li>
+        <li>
+          <p>Whenever I’ve retweeted something in Swedish, I’ve first
+            translated it into English and then used a “TRT” prefix, for
+            “translated retweet”.  (I still find this useful, by the
+            way.)</p>
+        </li>
+        <li>
+          <p>Most importantly, whenever I’ve thought of something myself
+            to say in Swedish, I’ve either found a way to express it in
+            English or else just shut up:</p>
+          <div class="screenshot">
+            <img src="solution-3.png" width="535" height="57"
+                 alt="Example of me not having anything to say."/>
+          </div>
+        </li>
+      </ul>
+  
+      <p>Until now.</p>
+  
+      <h2>The solution</h2>
+  
+      <p>Fast forward about a year, and I’m in Brighton (lovely place,
+         by the way) making breakfast smalltalk with an old lady whose
+         demented tendencies kind of remind me of Twitter-induced
+         multiple personality disorder.</p>
+  
+      <p>That’s when I suddenly realize how to solve the multilingual
+         tweeting problem without losing half of my followers, without
+         contacting my insurance company, and without lobbying for the
+         addition of any new language features to Twitter itself.</p>
+  
+      <p>The idea is simple and almost too good to be true.  I call it
+        “masktags”.  It’s similar to hashtags, only it doesn’t involve a
+        hash, and it masks stuff.</p>
+  
+      <p>To understand it, you have to remember how @-replies work in
+        Twitter.  If you’re following me, and I send an @-reply to
+        someone, it shows up in your timeline, <em>but only if you’re
+        following that other person as well</em>.</p>
+  
+      <p>That’s the key: This filtering — or <em>masking</em> — aspect
+        of @-replies.</p>
+  
+      <p>So what about it?  Well, I’ve set up an account
+        called <a href="http://twitter.com/inswe">@inswe</a>, which I
+        recommend everybody who speaks Swedish to follow.  It doesn’t
+        matter whether or not you intend to use this directly: Someone
+        who you follow may use it, and then you’ll miss their tweets
+        unless you follow @inswe.</p>
+  
+      <p>That point deserves to be made again: <strong>If you speak
+        Swedish, then you should
+        follow <a href="http://twitter.com/inswe">@inswe</a>, or you
+        will miss stuff if and when someone you follow starts using the
+        “@inswe” masktag.</strong>  Note that the @inswe account itself
+        will not send out any tweets.  It is simply an empty and unused
+        dummy account.</p>
+  
+      <p>Once a sizable portion of your Swedish followers are
+        following @inswe, you’re all set.  Tweeting in Swedish without
+        annoying people is as simple as starting your tweet with the
+        “@inswe” masktag:</p>
+  
+      <div class="screenshot">
+        <img src="final-solution.png"/>
+      </div>
+  
+      <p>It doesn’t get much simpler than this — even in theory!</p>
+
+      <p>I’ve just started
+        a <a href="http://en.wikipedia.org/wiki/Lojban">Lojban</a>
+        masktag as
+        well: <a href="http://twitter.com/injbo">@injbo</a>.  If you
+        have this problem but you’re neither a Swede nor a Lojbanist,
+        go ahead and start a masktag for your own language.</p>
+  
+      <p>Now we just have to come up with masktags for all the other
+        annoying things people talk about on Twitter.  Like sports.  Or
+        American politics.</p>
+
+      <p class="author">— Daniel Brockman
+        (<a href="http://twitter.com/dbrock">@dbrock</a>), April 2,
+        2010</p>
+    </div>
+
+    <div style="background: #f8f8f8">
+      <div class="container custom-links">
+        <h2 id="tldr">The short version (for Swedes)</h2>
     
-    <p>If you speak more than one language and use Twitter
-      internationally, you may have run into some problems.  Most
-      importantly, how do you tweet in a language that some of your
-      followers understand (Swedish, in my case — or even Lojban),
-      without annoying everybody else?</p>
-
-    <p>(See bottom for <a href="#tldr">TLDR</a>.)</p>
-
-    <p>There are two common solutions to this.  The simplest one is to
-      keep mixing tweets in different languages until everybody who’s
-      annoyed by the gibberish stops following you.  Problem
-      solved.</p>
-
-    <p>The other solution is to create a separate Twitter account for
-      each language that you want to tweet in.  I’ve tried this, and
-      while it solves the original problem, you get a whole sample
-      pack of new problems in return.  Which may be fine, depending on
-      how you use Twitter, and how comfortable you are with
-      Twitter-induced multiple personality disorder.  For me, this was
-      too awkward.  Besides, I can only make four more psychologist
-      appointments and then my insurance company needs to approve any
-      additional ones.</p>
-
-    <p>Fast forward about a year, and I’m having breakfast in Brighton
-      while talking to an old lady who for all I know may have
-      non-Twitter-induced multiple personality disorder.  Definitely
-      dementia, anyway.  Anyway, out of the blue, I suddenly realize
-      how to solve the multilingual tweeting problem --- without
-      losing half of your followers, without contacting your insurance
-      company, and without any modifications to Twitter itself.</p>
-
-    <p>The idea is simple.  I call it “masktags”.  It’s similar to
-      hashtags, only it doesn’t involve a hash, and it masks
-      stuff.</p>
-
-    <p>To understand it, though, you have to remember how @-replies
-      work in Twitter: if you’re following me, and I send an @-reply
-      to someone, it only shows up in your timeline if *you’re*
-      following the *other* person *as well*.  That’s the key.</p>
-
-    <p>Now, I’ve set up an account called @inswedish, which I
-      recommend everybody who speaks Swedish to follow.  It doesn’t
-      matter whether or not you intend to use it directly: Someone who
-      you follow may use it, and then you’ll miss their tweets unless
-      you follow @inswedish.</p>
-
-    <p>(That point deserves to be made again: If you speak Swedish,
-      then you should follow @inswedish, or you will miss stuff if and
-      when someone you follow starts using the “@inswedish” masktag.
-      Note that the @inswedish account itself will not send out any
-      tweets.  It is simply an empty and unused dummy account.)</p>
-
-    <p>Finally, tweeting in Swedish without annoying your non-Swedish
-      followers is as simple as starting your tweet with “@inswedish”.</p>
-
-    <p>It can’t get much simpler than that, even in theory.</p>
-
-    <p>Now we just have to come up with masktags for all the other
-      annoying things people talk about on Twitter.  Like sports.  Or
-      politics.</p>
-
-    <h2>Summary</h2>
-
-    <p>Still TLDR?  See even farther down for an illustrative comic
-      (with pictures!).</p>
-
-    <ul>
-      <li>If you understand Swedish and use Twitter, start following
-        <a href="http://twitter.com/inswedish">@inswedish</a>.</li>
+        <p>If you understand Swedish and use Twitter, you should start
+          following the so-called Swedish masktag,
+          <a href="http://twitter.com/inswe">@inswe</a>:</p>
     
-      <li>If you usually tweet in English but want to say something in
-        Swedish without annoying your non-Swedish followers, start
-        your tweet with “@inswedish”.  (When doing this for the first
-        time, it’s probably a good idea to let people know in advance
-        so that anyone who understands Swedish can start following
-        @inswedish if they don’t already.)</li>
-    </ul>
+        <div class="screenshot">
+          <a href="http://twitter.com/inswe"><img src="how-to-follow-inswe.png"/></a>
+        </div>
+        
+        <p>Now, if you usually tweet in English but want to say
+          something in Swedish without being annoying, you can do
+          that.  First, you should warn people in advance, either by
+          referring them to this page or by tweeting something like
+          this:</p>
+    
+        <div class="screenshot os-x">
+          <img src="how-to-explain.png" alt="Image of an unsent tweet
+               with the text “I’m going to start tweeting in Swedish,
+               but you won’t see those tweets unless you follow
+               @inswe. Please do that if you understand Swedish.”"/>
+    
+        <p>Then, simply start any Swedish tweets with “@inswe”:</p>
+    
+        <div class="screenshot os-x">
+          <img src="how-to-tweet-in-swedish.png" alt="Image of an
+               unsent tweet with the text “@inswe Käkar ärtsoppa med
+               pannkakor och hjortrongrädde. #win”"/>
+        </div>
 
-    <h2>Illustrative comic (with pictures!)</h2>
+        <p>Only people who follow both you and @inswe will see that.</p>
+      </div>
+    </div>
 
+    <div style="background: #333; color: #eee">
+      <div class="container">
+        <h2>Discussion</h2>
 
+        <p>To comment on this article, mention the word “masktag” (or
+          “masktags”) on Twitter and it will show up below.</p>
 
+        <div style="margin-top: 4ex">
+          <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+          <script>
+            new TWTR.Widget({
+              version: 2,
+              type: 'search',
+              search: 'masktag OR masktags',
+              interval: 10000,
+              width: 'auto',
+              height: 500,
+              subject: 'Tweets about masktags',
+              theme: {
+                shell: {
+                  background: '#222',
+                  color: '#eee'
+                },
+                tweets: {
+                  background: '#ffffff',
+                  color: '#444444',
+                  links: '#1985b5'
+                }
+              },
+              features: {
+                scrollbar: true,
+                loop: false,
+                live: true,
+                hashtags: true,
+                timestamp: true,
+                avatars: true,
+                behavior: 'all'
+              }
+            }).render().start();
+          </script>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+    var pageTracker = _gat._getTracker("UA-15616454-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
   </body>
 </html>
